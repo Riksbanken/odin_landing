@@ -24,7 +24,6 @@ body {
 
 .header-container {
   display: flex;
-  padding: 0 20px;
   justify-content: space-between;
   align-items: center;
   height: 15vh;
@@ -63,4 +62,57 @@ header {
   text-decoration: none;
   color: #e5e7eb;
   margin-left: 15px;
+}
+
+.hero-section {
+  background-color: #1f2937;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap-reverse;
+  padding: 30px 0px;
+}
+
+.hero-container img {
+  height: 170px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.hero-description {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* padding: 0 5px; */
+}
+
+.hero-description h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  margin-top: 0;
+}
+
+.hero-description p,
+.hero-description button {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.hero-description p {
+  width: 50%;
+}
+
+.hero-description button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  width: 15%;
 }
